@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Leaderboard
+{% endblock %}
+
+{% block main %}
+    <h1 class="text-white">Leaderboard</h1>
+    <table class="table table-striped text-white">
+        <thead>
+            <tr>
+                <th class="text-start">Rank</th>
+                <th class="text-start">Username</th>
+                <th class="text-start">Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for index, user in my_enumerate(user_scores) %}
+                <tr>
+                    <td class="text-start text-white">{{ index + 1 }}</td>
+                    <td class="text-start text-white">{{ user.username }}</td>
+                    <td class="text-start text-white">{{ user.score }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

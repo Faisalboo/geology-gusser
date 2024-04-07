@@ -1,0 +1,42 @@
+/* Ensure the existing style definitions for dark theme are intact */
+
+/* Size for brand */
+nav .navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue {
+    color: #00a8cc;
+}
+
+/* Dark background and white text */
+body {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.alert {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Override table cell text color */
+.table,
+.table th,
+.table td {
+    color: #ffffff;
+}
