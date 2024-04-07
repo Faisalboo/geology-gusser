@@ -1,5 +1,5 @@
 # Geology Guessr
-#### Video Demo:  <[URL HERE](https://youtu.be/ck5FOg_rz-Q)>
+#### Video Demo:  <[Video](https://youtu.be/ck5FOg_rz-Q)>
 #### Description:
 
 Geology Guesser represents an innovative and interactive web-based application meticulously crafted using the Flask framework in Python. This project aims to offer users an immersive and intellectually stimulating experience by combining elements of entertainment and education through a guessing game based on geological images. Geology Guesser is designed to engage users with its distinctive blend of user authentication, gameplay mechanics, and leaderboard functionalities.
